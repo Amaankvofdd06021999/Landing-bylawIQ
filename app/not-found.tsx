@@ -1,0 +1,1 @@
+export default function NotFound(){return <main id="main" className="section wrap policy-page"><span className="eyebrow">PAGE NOT FOUND</span><h1>Let’s get you back<br/>to clearer ground.</h1><p>The page you’re looking for isn’t here.</p><a className="button button-dark" style={{marginTop:30}} href="/">Back to BylawIQ</a></main>}
