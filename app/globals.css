@@ -29,27 +29,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.will-reveal{opacity:1!important;transform:none!important}.trail-lines{display:none}.marquee-track{animation:none!important}.marquee-window{overflow-x:auto}.marquee-track .marquee-group:nth-child(2){display:none}}
 
 /* Connected roles (home) */
-.roles-diagram{display:grid;grid-template-columns:1fr 120px 1.15fr 120px 1fr;align-items:center;margin-top:10px}
-.role-node{background:#fff;border:1px solid #d7d7d7;padding:22px 24px}
-.role-node h3{font-size:28px;margin:6px 0 10px}
-.role-node p{font-size:15px;color:#555}
-.role-tag{display:block;font-size:11px;letter-spacing:.07em;color:#a5510b}
-.role-chip{display:inline-block;margin-top:16px;padding:6px 12px;border:1px solid #d7d7d7;background:#f6f6f6;font-size:13px}
-.role-strata{border:2px solid var(--slate);min-height:300px;display:flex;flex-direction:column;justify-content:center}
-.role-buildings{display:flex;flex-direction:column;gap:14px;padding:16px;border:2px dashed var(--orange)}
-.role-building{background:var(--cream);border-color:#f1c38f}
-.role-building.active{border:2px solid var(--orange)}
-.role-kb{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
-.role-kb span{background:#fff;padding:8px 6px;text-align:center;font-size:12px;font-weight:600}
-.role-residents{display:flex;flex-direction:column;gap:14px}
-.role-resident{display:flex;align-items:center;gap:12px;background:var(--cream);border-color:#f1c38f;font-weight:600}
-.role-resident svg{color:#a5510b}
-.role-link{position:relative;display:flex;flex-direction:column;align-items:center;gap:8px;padding:0 10px}
-.role-link i{display:block;width:100%;height:2px;background:#0d0d0d;position:relative}
-.role-link i:after{content:'';position:absolute;right:-1px;top:-5px;border:6px solid transparent;border-left:9px solid #0d0d0d;border-right:0}
-.role-link-two i:before{content:'';position:absolute;left:-1px;top:-5px;border:6px solid transparent;border-right:9px solid #0d0d0d;border-left:0}
-.role-link small{font-size:12px;color:#666;text-align:center;line-height:1.3}
-.roles-steps{margin-top:80px}
+.roles-steps{margin-top:20px}
 .roles-section .button-row{margin-top:60px}
 
 /* Solutions detail */
@@ -78,6 +58,6 @@
 .plan-card li{display:flex;gap:12px;align-items:flex-start;padding:11px 0;font-size:16px;border-bottom:1px solid #eee}
 .plan-card li svg{color:#a5510b;flex-shrink:0;margin-top:3px}
 
-@media(max-width:1150px){.roles-diagram{grid-template-columns:1fr 70px 1.15fr 70px 1fr}.role-link small{display:none}.plan-card{padding:30px}}
-@media(max-width:950px){.roles-diagram{grid-template-columns:1fr;gap:0}.role-strata{min-height:0}.role-link{height:56px;padding:0}.role-link i{width:2px;height:100%}.role-link i:after{right:auto;left:-5px;top:auto;bottom:-1px;border:6px solid transparent;border-top:9px solid #0d0d0d;border-bottom:0}.role-link-two i:before{left:-5px;top:-1px;border:6px solid transparent;border-bottom:9px solid #0d0d0d;border-top:0}.plan-grid{grid-template-columns:1fr}}
-@media(max-width:700px){.roles-steps{margin-top:50px}.plan-card h2{font-size:34px}.plan-price strong{font-size:52px}.role-kb{grid-template-columns:1fr 1fr 1fr}.role-kb span{font-size:11px}.included-list li{font-size:16px}}
+@media(max-width:1150px){.plan-card{padding:30px}}
+@media(max-width:950px){.plan-grid{grid-template-columns:1fr}}
+@media(max-width:700px){.roles-steps{margin-top:50px}.plan-card h2{font-size:34px}.plan-price strong{font-size:52px}.included-list li{font-size:16px}}
